@@ -1,0 +1,64 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Buy groceries",
+      "description": "Purchase vegetables, fruits, milk, and daily essentials from the market",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Finish project report",
+      "description": "Complete the final draft and submit the report to the manager",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "title": "Call the electrician",
+      "description": "Fix the faulty wiring in the living room",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "Schedule dentist appointment",
+      "description": "Book a routine dental check-up for next week",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "Clean the house",
+      "description": "Vacuum, dust, and organize all rooms",
+      "completed": true
+    },
+    {
+      "id": 6,
+      "title": "Read 20 pages of a book",
+      "description": "Continue reading the current novel before bedtime",
+      "completed": false
+    },
+    {
+      "id": 7,
+      "title": "Go for a morning run",
+      "description": "Run at least 3 kilometers in the park",
+      "completed": true
+    },
+    {
+      "id": 8,
+      "title": "Reply to emails",
+      "description": "Respond to pending work and personal emails",
+      "completed": false
+    },
+    {
+      "id": 9,
+      "title": "Prepare dinner",
+      "description": "Cook a healthy meal for the evening",
+      "completed": false
+    },
+    {
+      "id": 10,
+      "title": "Update resume",
+      "description": "Add recent work experience and new skills",
+      "completed": true
+    }
+  ]
+}
