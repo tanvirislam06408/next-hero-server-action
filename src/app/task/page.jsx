@@ -1,4 +1,6 @@
+import { AddTask } from '@/Components/AddTask';
 import TaskCard from '@/Components/TaskCard';
+import { addATask } from '@/lib/action';
 import getTask from '@/lib/taskData';
 import React from 'react';
 
@@ -9,6 +11,7 @@ const TaskPage = async () => {
     return (
         <div className='container mx-auto'>
             <h1> task data{task.tasks.length}</h1>
+            <AddTask addATask={addATask}/>
             <div className="grid grid-cols-3 gap-5">
                 {
                     task.tasks.map(taskCard => <TaskCard taskCard={taskCard} key={taskCard.id} />)
