@@ -21,13 +21,13 @@ export function AddTask({ addATask }) {
             <Modal.Body className="p-6">
               <Surface variant="default">
                 <form action={addATask} className="flex flex-col gap-4">
-                  <TextField className="w-full" name="name" type="text">
-                    <Label>Name</Label>
-                    <Input placeholder="Enter your name" />
+                  <TextField className="w-full" name="title" type="text">
+                    <Label>title</Label>
+                    <Input placeholder="Enter your title" />
                   </TextField>
-                  <TextField className="w-full" name="message">
-                    <Label>Message</Label>
-                    <Input placeholder="Enter your message" />
+                  <TextField className="w-full" name="description">
+                    <Label>description</Label>
+                    <Input placeholder="Enter your description" />
                   </TextField>
 
                   {/* select field */}
